@@ -84,4 +84,4 @@ if( estMajeur(ageSaisieParMonUtilisateur) ) {
     ATTENTION! PAS DE SIMPLE EGAL DANS LES CONDITIONS. SMPLE EGALE EST UNE AFFECTATION DE VALEURS
    */
 
-  
+}
