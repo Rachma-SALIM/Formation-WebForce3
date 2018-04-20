@@ -9,9 +9,12 @@
  $(function(){
 
     l=e=>console.log(e);
+
     // sélectionner toutes les balises SPAN
 
+    l(document.getElementsByTagName('span');)
     // l(document.getElementsByTagName('span')); en JS
+
     l ($('span'));
     // en JQ
 
@@ -27,4 +30,4 @@
     // Selectionner un attribut
     l($('[href="#"]'));
 
- })
+ });
