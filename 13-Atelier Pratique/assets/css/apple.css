@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+	color: #fff;
+}
+
+.sectionTop{ text-align:center;}
+
+.sectionTop p:nth-child(1){
+    font-size: 30px;
+}
+.sectionTop p:nth-child(2){
+    font:Arial;
+    font-size:50px;
+}
+.sectionTop a:nth-child(1),.sectionTop a:nth-child(2){
+    font-size: 15px;
+}
+.sectionTop p:nth-child(3){
+    font-size:9px;
+}
+
+.sectionTop img{width:60%}
+section.middle{
+	background-color:#fff;
+    color:#ccc;
+    width:100%;
+}
+
+.container-phone{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.clear{
+	clear:both;
+}
+div.left img{width:50%; float:right; height:60%}
+div.left{width:45%;
+margin:0;
+}
+.tel, .email{width:50%; text-align:center; justify-content: space-between  ;}
+
+
+
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding-bottom: 0;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+	padding:0;
+}
+
+#topnavbar{
+    background-color: rgb(49, 46, 46);
+    display: flex;
+    justify-content: space-around;
+
+}
+#topnavbar a{
+    color: white;
+}
+
+#topnavbar2{
+	background-color: rgb(20, 20, 20);
+    height : 80px;
+    display: flex; 
+    justify-content: space-around;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.glyphicon{
+    size:3em;
+    color:white;
+}
+
+.img-responsive img{
+display: block;
+max-width: 100%; 
+height: auto;
+}
+
+
+
+
+.form h3, footer{
+text-align: center;
+}
+ div.form{
+     align-items: center;
+ }
+
+ div.container h3{
+     padding-top: 10px;
+ }
+ form.form-control{
+    background-color: black;
+ }
+ .float-left{
+     flex-wrap: no wrap;
+     display: inline;
+     justify-content: space-between;
+ }
+ .right{
+     color: rgba(22, 21, 21, 0.6)
+ }
+
+ #message{
+height:100px;
+ }
+ button.btn-primary{
+     justify-content: center;
+     margin-top: 10px;
+ }
+ /* div.button{
+ align-self: center;
+ } */
+ /* to check again center */
+
+
+
+

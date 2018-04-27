@@ -215,7 +215,7 @@ document.write(Contacts[2].coordonnees.adresse.ville);
     |                        AJOUTER UN ELEMENT
     \------------------------------------------------- */
 
-    /* sI JE SOUHAITE AJOUTER UN ou plusieurs éléMENT DANS MON TABLEAU, je fais appel à la fonction push() qui me renvoie le nombre d'éléments */
+    /* sI JE SOUHAITE AJOUTER UN ou plusieurs éléMENTS DANS MON TABLEAU, je fais appel à la fonction push() qui me renvoie le nombre d'éléments */
 
     var Couleurs = ['Rouge', 'Jaune', 'Vert'];
     console.log();

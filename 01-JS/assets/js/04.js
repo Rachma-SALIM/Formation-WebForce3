@@ -1,6 +1,6 @@
 /* LES OPERATEURS ARITHMETIQUES */
 /*********** L'ADDITION ***********
- * Déclaration de plusieurs svariables à la suite
+ * Déclaration de plusieurs variables à la suite
  */
 var nb1, nb2, resultat;
 nb1=10; nb2=5;

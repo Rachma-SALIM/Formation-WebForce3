@@ -1,0 +1,168 @@
+
+
+/* ----------------------
+       NAVBAR 
+---------------------- */
+.navbar{
+    background-color: #061339;
+    color: #FFF ;
+    font-family: 'Merienda', sans-serif;
+    font-weight:400;
+}
+
+/* ----------------------
+       TOP BACKGROUND
+---------------------- */
+
+.background{
+    background:url(../img/background.jpg);
+    height: 10rem;
+}
+h1{
+    font:  #FFF;
+    vertical-align: middle;
+}
+
+/* ----------------------------------------
+       TOP SECTION - SLIDER AND FORM
+-------------------------------------------- */
+
+/*  Check the font, doesn't seem to be working! */
+
+.topsection{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* background: rgb(241, 238, 238);
+    width: 100%; */
+
+ clear{
+     clear: both;
+ }
+
+.slide{
+    text-align: center;
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    height: 100%;
+   
+}
+ 
+#contactform{
+    border: rgb(248, 242, 242) 0.1rem solid;
+    background-color: whitesmoke ;
+  
+    
+}
+ .button{
+     padding-top: 2rem;
+     vertical-align: center;
+     padding-bottom: 0;
+     margin: 0;
+     
+ }
+
+ /* ---------------------------------------
+     BOTTOM SECTION - PRESENTATION
+------------------------------------------ */
+
+ #presentation{
+     background-color: rgb(196, 189, 189);
+ }
+ h4{
+     color: #2F4073;
+     font: 'Merienda', sans-serif;
+ }
+
+ 
+
+ .cat{
+     color:  #7885A5; 
+     border-radius: 50%;
+     height: 50%;
+     width: 40%;
+     background: transparent;
+    vertical-align: center;
+
+ }
+ .cat:hover{
+     color:  #061339
+ }
+
+ /* ----------------------
+     FOOTER
+---------------------- */
+
+ footer{
+     text-align: right;
+     color: #fff;
+ }
+
+ /* ----------------------
+       MEDIA QUERIES
+---------------------- */
+
+
+@media (min-width: 544px) {  
+    carousel {
+        width: 100%;
+    }
+}
+    
+
+ 
+
+@media (min-width: 768px) {  
+}
+ 
+
+@media (min-width: 992px) { 
+    
+    
+}
+
+@media (min-width: 1200px) {  
+    
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #061339;
+}

@@ -53,7 +53,7 @@ var validateTel = tel => {
     const tel = $('#tel');
 
 
-    //  Tous les champs doivent être remplis --> condition que c'est pas vide.
+    //  Tous les champs doivent être remplis --> condition que ce ne soit pas vide.
 
       // -- Validation des champs du Formulaire
     if (nom.val().length === 0) { 
